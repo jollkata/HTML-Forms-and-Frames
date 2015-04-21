@@ -1,0 +1,99 @@
+.left_col {
+	font-weight: bold;
+	text-align: center;
+	width: 150px;
+}
+
+.right_col {
+	width: 300px;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline input {
+	float: left;
+}
+
+.inline p {
+	float: left;
+	margin: 0px 2px 0px 10px;
+}
+
+.uni_grid  .inline button {
+	float: left;
+}
+
+.reg_form, .uni_grid {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.reg_form td, .uni_grid td , .uni_grid th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.uni_grid th, .uni_grid td {
+	padding: 5px;
+}
+
+.input_width {
+	width: 95%;
+}
+
+#footer {
+	text-align: center;
+	background-color: skyblue;
+}
+
+.bold_center {
+	font-weight: bold;
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.underline {
+	font-weight: underline;
+	color: blue;
+}
+
+#sotre {
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	width: 750px;
+	font-family: cursive;
+}
+
+.header_href {
+	font-size: 2em;
+	color: skyblue;
+	font-weight: underline;
+}
+
+.store_header {
+    border-bottom: 1px solid black;
+}
+
+#notebook_table {
+	border: 1px solid black;
+	margin: 5px;
+}
+
+#center {
+	display: inline-block;;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: left;
+	margin: 50px 20px;
+}
