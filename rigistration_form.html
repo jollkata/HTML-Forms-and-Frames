@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta http-equiv="Content-Type" charset="utf-8"/>
+        <title>Registration Form</title>
+		<link type="text/css" href="styles.css" rel="stylesheet"/>		
+    </head>
+    <body >
+		<form>
+			<table class='reg_form'>
+				<tr>
+					<td class='left_col'>Last Name</td>
+					<td class='right_col'><input type='text' class='input_width'/></td>
+				</tr>
+				<tr>
+					<td class='left_col'>First Name</td>
+					<td class='right_col'><input type='text' class='input_width'/></td>
+				</tr>
+				<tr>
+					<td class='left_col'>Address</td>
+					<td class='right_col'><textarea class='input_width' style='height: 50px;'></textarea></td>
+				</tr>
+				<tr>
+					<td class='left_col'>City</td>
+					<td class='right_col'>
+						<div class='inline'>
+							<input type='text' style='width: 60%'/>
+							<p style='width: 10%'>State</p>
+							<input type='text' style='width: 20%'/>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class='left_col'>Zip/Postal Code</td>
+					<td class='right_col'><input type='text' style='width: 30%'/></td>
+				</tr>
+				<tr>
+					<td class='left_col'>Country</td>
+					<td class='right_col'>
+						<select style='width: 60%'>
+							<option value='Bulgaria'>Bulgaria</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class='left_col'>Phone (country code, area code, number)</td>
+					<td class='right_col'>
+						<div class='inline'>
+							<p>(+</p>
+							<input type='text' style='width: 15%;'/>
+							<p style='margin-left: 5px;'>)</p>
+							<input type='text' style='width: 15%; margin-left: 10px;'/>
+							<input type='text' style='width: 40%; margin-left: 10px;'/>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class='left_col'>Email</td>
+					<td class='right_col'><input type='text' class='input_width'/></td>
+				</tr>
+				<tr>
+					<td class='left_col'>Birth day</td>
+					<td class='right_col'><input type='text' class='input_width' value='дд.мм.гггг г.'/></td>
+				</tr>
+				<tr>
+					<td class='left_col'>Gender</td>
+					<td class='right_col'>
+						<select style='width: 30%'>
+							<option value='Male'>Male</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class='left_col'>Starting date</td>
+					<td class='right_col'>
+						<div class='inline'>
+							<input type="radio" name="date" value="spring" />
+							<p>Spring 2015</p>
+							<input type="radio" name="date" value="summer" />
+							<p>Summer 2015</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class='left_col'>Comments/Questions</td>
+					<td class='right_col'><textarea class='input_width' style='height: 100px;'></textarea></td>
+				</tr>
+				<tr>
+					<td id='footer' colspan='2'>
+						<div class='inline'>
+							<button type='submit'>Submit</button>
+							<button type='reset'>Clean This Form</button>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</form>
+    </body>
+</html>
